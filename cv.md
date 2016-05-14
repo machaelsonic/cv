@@ -15,7 +15,7 @@
 
 ### 技能 {#skills}
 
-* 算法/系统架构设计与仿真 {#Algorithm/Architecture Design, Simulation}
+* 算法/系统架构设计与仿真
   : 设计数学模型, 运用Matlab/C/C++等工具快速搭建仿真模型并验证设计, 生成测试文件
 
 * 可综合设计与验证
