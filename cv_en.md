@@ -1,5 +1,5 @@
 # Lv Haifeng
-## Senior Full Stack Electronical Engineer
+## Senior Full Stack Electronic Engineer
 
 > Shanghai, Male, 1979  
 > [machael@gmail.com](machael@gmail.com)  
@@ -9,28 +9,28 @@
 
 ### Profile
 
-Senior electronical engineering expert, with rich experience in mixed-signal integrated circuit and hardware/software development in digital circuit system. Solid electrical and signal analysis theory basis, proficient in digital communications, filtering, signal analyzing algorithm design and simulation. Full-stack engineer, good at quick learning. Complete knowledge infrastructure, from HDL to PCB and to GUI development. Rich experience in team and project management. Innovative thinking and global vision, excellent technical instinct, good bug solver.
+Senior electronic engineering expert, with rich experience in mixed-signal integrated circuit, hardware, software development. Solid electrical and signal analysis theory basis, proficient in digital communications, filtering, signal analyzing algorithm design and simulation. Full-stack engineer, good at quick learning. Complete knowledge infrastructure, mastering technical skills from HDL to PCB to GUI development. Rich experience in team and project management. Innovative thinking and global vision, excellent technical instinct, good bug solver.
 
 ------
 
 ###Skills
 
-* Algorithm/System Architecture Design and Simulation
-  : design math models, build simulations in Maltab/C/C++ and verify them, generate golden files for testbench
+* Algorithm/System Architecture Design and Simulation  
+  : design math models and build simulations in Maltab/C/C++, generate golden files for testbench
 
-* Synthesizable verilog design and verification
-  : develop synthesizable logic modules and testbenchs using verilog, and run  simulation in Modelsim to verificate them
+* Synthesizable verilog design and verification  
+  : develop synthesizable logic modules and testbenchs using verilog, and run simulation in Modelsim to verificate
 
-* FPGA prototype design
+* FPGA prototype design  
   : FPGA prototype design based on Altera FPGA and Quartus
 
-* PCB Design and Debug
-  : Design and simulate application circuit in Multisim, design schematics and PCB in Protel, DXP
+* PCB Design and Debug  
+  : Design and simulate application circuit in Multisim, draw schematics and PCB in Protel, DXP
 
-* Embedded software development
+* Embedded software development  
   : ST STM32 M0/M3, Intel 8051, Motorola HC MCUes software development based on MDK, Keil etc.
 
-* System Application Software Development
+* System Application Software Development  
   : CLI and GUI software development running in windows OS, using Python, C++, Qt etc.
 
 -------
@@ -57,24 +57,24 @@ Senior electronical engineering expert, with rich experience in mixed-signal int
   
 * **Powerline Communication SOC: BL6810**
   + Innovative and patented adaptive multi-channel & multi-rate PLC(powerline communication) chip.
-  + Supports and extends EIA709.2, minimal 0.5uV sensitivity, best in all similar products in the world.
-  + All digital receiver infrastructure, minimal periphery discrete devices. dependence. 8051 MCU embedded, 32K Flash, success in one tape-out.
-  + Responsible for chip spec deinition, algorithm and architecture design, FPGA prototype design, HDL design and verification,  marketing
+  + Supports and extends EIA709.2, minimal 0.5uV sensitivity, best around all similar products in the world.
+  + All digital receiver infrastructure, least periphery discrete devices dependence. 8051 MCU embedded, 32K Flash, success in one tape-out.
+  + Responsible for chip spec definition, algorithm and architecture design, FPGA prototype design, HDL design and verification,  marketing
 
 * **Self-organizing powerline communication network protocol stack software: Powermesh**
-  + Consisted of four layers: PHY, DLL, NW, MGNT/APP. Self-organizing communication network protocol stack oriented to power line medium. It can also be extended to other open physical layer medium, with ARM and 8051 two versions.
-  + Study and identify neighboring nodes automatically, adjust carrier frequency and bit rate according to channel characteristics and noise level, and organized to emerge a mutual routing forwarding network. Customer can rapidly build applications with self-routing communication function without any network knowledge.
-  + Based on powermesh, state grid user infromation acquisition system, street lamp control system has a large number of field use.
+  + Consisted of four layers: PHY, DLL, NW, MGNT/APP. Self-organizing communication network protocol stack oriented to power line medium. It can also be transplated to other open physical layer medium. Two platform versions(ARM and 8051).
+  + Study and identify neighboring nodes automatically, adjust carrier frequency and bit rate according to channel characteristics and noise level, self organized and emerge a mutual routing forwarding network. Customer can rapidly build applications with self-routing communication function without any network knowledge.
+  + Based on powermesh, widly used in state grid user information  acquisition system, street lamp control system.
   +  Responsible for protocol architecture design, software development, testing, and customer support
 
-* **In field power line communication device upgrade solution: FireUpdate**
-  + It can update the firmware in PLC chips cantactlessly, after the devices have been installed in final customers environment, to fix bug, function upgrade etc.
-  + built-in in chip , completely transparent to the user.
-  + Has obtained patent authorization
+* **In-field power line communication device upgrade solution: FireUpdate**
+  + Update the firmware in PLC chips in equipment contactlessly via power access nearby, after installment in final customers environment, for bug fixing, function upgrading etc.
+  + Built-in in the chip, completely transparent to the user.
+  + Patent issued.
   + Responsible for the overall functional design, programming software and hardware development, GUI program development
  
 * **State grid power user electric energy data acquisition system concentrator local communication module, smart meter communication unit**
-  + Supports GDW 2009/2013 and DL645 standards, centified by China Electric Institute
+  + Supports GDW 2009/2013 and DL645 standards, certified by China Electric Institute
   + Self-organized smart meter network, implementing remoter reading, peak-valley price adjustment, timing adjustment, specified electric loads turning on or off, by internet.
   + Running stably in multiple test fields in Jiangsu and Anhui more than two years, communication success rate >99%
   + Responsible for PCB design, software development, field test and customer support
@@ -85,9 +85,9 @@ Senior electronical engineering expert, with rich experience in mixed-signal int
   + Optical coupling isolation, protecting equipments and persons
   + Responsible for the overall protocol design, circuit design, firmware development, PC software development
 
-* Producting test platform: BL SysGear**
-  + Used for bach processing production testing, running a full set of test process including burn programming, circuit function tesging, communication performance verify, label printing in one-key operation.
-  + Greatly improved the production efficiency, shortened test time for each module from the original 90 secs to 15 secs, and completely eliminated mistakes caused by human operations.
+* **Production test platform: BL SysGear**
+  + Used for batch processing production testing, running a full set of test process including burn programming, circuit function testing, communication performance verify, label printing in one-key operation.
+  + Greatly improved the production efficiency, shortened test time for each module from the original 90s to 15s, and completely eliminated mistakes caused by human operations.
   + Has been used in mass production in smart meters, street lamp control communication module components.
   + Responsible for function definition, schematic design, firmware development.
 
@@ -97,8 +97,8 @@ Senior electronical engineering expert, with rich experience in mixed-signal int
 
 * **Mainstream power line communication chip products investigation and technical analysis report**
   + A thorough and complete technical research report about almost all kinds of the power line communication chip products in China market, including 5 domestic and 3 aboard products. A rigid and quantified performance evaluation and comparison plan was designed.
-  + Investigated manusfacturer market share, and made forecast for technical road map
-  + Responsible for the sample collection, test design, communication measurement test, data statistics, market analysis, technical writing.
+  + Investigated manufacturer market share, and a technical road map forecast was made
+  + Responsible for the sample collection, test plan design, communication performance evaluation, data statistics, market analysis, technical writing.
 
 
 
@@ -160,4 +160,4 @@ Senior electronical engineering expert, with rich experience in mixed-signal int
 
 ### Hobby
 
-Travel, photography, drama, antique
+Travel, photography, drama, traditional culture
