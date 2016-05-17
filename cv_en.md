@@ -1,60 +1,40 @@
-# 吕海峰
 # Lv Haifeng
-## 资深电子工程技术专家, 全栈工程师
-## Senior Electronical Full Stack Engineer
+## Senior Full Stack Electronical Engineer
 
-> 上海, 男, 1979年
-> Shanghai, Male, 1979
+> Shanghai, Male, 1979  
 > [machael@gmail.com](machael@gmail.com)  
 > (+86)186-1685-9955
 
 ------
 
-### 简介 {#profile}
 ### Profile
-
-资深电子工程技术专家, 具有丰富的数模混合集成电路与数字电路系统的软硬件开发经验. 扎实的电学与数字信号分析理论功底, 精通数字通信, 滤波器, 信号分析, 电能计量等多种算法设计与仿真分析. 全栈型工程师, 善于快速学习, 掌握从芯片前端到硬件系统到软件界面的全套技术. 具有丰富的团队建设管理与项目经验. 富于创新性思维, 技术视野开阔,  全局思考, 技术嗅觉敏锐, 善于解决技术难题.
 
 Senior electronical engineering expert, with rich experience in mixed-signal integrated circuit and hardware/software development in digital circuit system. Solid electrical and signal analysis theory basis, proficient in digital communications, filtering, signal analyzing algorithm design and simulation. Full-stack engineer, good at quick learning. Complete knowledge infrastructure, from HDL to PCB and to GUI development. Rich experience in team and project management. Innovative thinking and global vision, excellent technical instinct, good bug solver.
 
 ------
 
-### 技能 {#skills}
 ###Skills
 
-* 算法/系统架构设计与仿真
-  : 设计数学模型, 运用Matlab/C/C++等工具快速搭建仿真模型并验证设计, 生成测试文件
 * Algorithm/System Architecture Design and Simulation
   : design math models, build simulations in Maltab/C/C++ and verify them, generate golden files for testbench
 
-* 可综合设计与验证
-  : 运用verilog, 开发可综合的数字逻辑和testbench, 并基于Modelsim等工具仿真验证
 * Synthesizable verilog design and verification
   : develop synthesizable logic modules and testbenchs using verilog, and run  simulation in Modelsim to verificate them
 
-* FPGA原型机设计
-  : 基于Altera Quartus的FPGA系统设计, 验证系统原型功能
 * FPGA prototype design
   : FPGA prototype design based on Altera FPGA and Quartus
 
-* PCB设计与调试
-  : 运用Multisim等电路仿真软件设计应用电路, 并使用Protel, DXP等设计PCB原理图, 版图
-  
 * PCB Design and Debug
   : Design and simulate application circuit in Multisim, design schematics and PCB in Protel, DXP
 
-* 嵌入式软件开发
-  : 基于MDK, Keil等工具, 对ST STM32 M0/M3系列, Intel 8051, Motorola等系列MCU做嵌入式编程设计
 * Embedded software development
   : ST STM32 M0/M3, Intel 8051, Motorola HC MCUes software development based on MDK, Keil etc.
 
-* 系统应用软件开发
-  : 基于Python, C++, Qt等编程语言, 设计PC端功能软件和用户界面
 * System Application Software Development
   : CLI and GUI software development running in windows OS, using Python, C++, Qt etc.
+
 -------
 
-### 技术 {#technical}
 ### technical
 
 1. Matlab, C/C++, Python, PyQt
@@ -69,21 +49,11 @@ Senior electronical engineering expert, with rich experience in mixed-signal int
 
 ------
 
-### 工作履历与项目经验 {#experience}
 ### Experience
 
-#### 上海贝岭股份有限公司 (SH600171)
 #### Shanghai Belling Inc. (SH600171)
-: *系统架构经理*
-: *System Architect*
-  __2010至今__
-  __Since 2010__
-  
-* **电力线通信SOC: BL6810**
-  + 世界首创的自适应支持多种频率多种速率的电力线通信专利技术芯片
-  + 支持并扩展了EIA709.2标准, 实测的接收灵敏度0.5uV, 接收灵敏度和抗干扰性均优于国外同类产品
-  + 全数字接收机架构, 业界最少的外围电路依赖, 内置8051 MCU, 32K Flash, 一次投片成功实现量产
-  + 负责芯片功能定义, 算法架构设计, FPGA原型机, HDL设计与仿真, 市场推广
+  *System Architect* 
+  __(Since 2010)__
   
 * **Powerline Communication SOC: BL6810**
   + Innovative and patented adaptive multi-channel & multi-rate PLC(powerline communication) chip.
@@ -91,113 +61,103 @@ Senior electronical engineering expert, with rich experience in mixed-signal int
   + All digital receiver infrastructure, minimal periphery discrete devices. dependence. 8051 MCU embedded, 32K Flash, success in one tape-out.
   + Responsible for chip spec deinition, algorithm and architecture design, FPGA prototype design, HDL design and verification,  marketing
 
-* **电力线自组织网络通信协议栈软件: Powermesh**
-  + 物理层, 链路层, 网络层, 网络管理/应用层四层网络架构, 面向电力线介质的自组织通信网络协议栈软件中间件, 也可以扩展应用到其他物理层通信, 有ARM和8051两个版本
-  + 自动学习识别临近节点, 根据信道频率特性和噪声水平调整通信频率和速率, 形成互助路由转发的自组织网络, 使客户在无需深入了解网络特性的基础上, 快速开发出支持自组织路由通信的应用
-  + 基于Powermesh开发的国家电网用户信息采集系统, 路灯控制系统, 智能电表控制系统等应用, 已大量投入现场使用.
-  + 负责协议架构设计, 软件开发, 测试, 客户支持
-
 * **Self-organizing powerline communication network protocol stack software: Powermesh**
   + Consisted of four layers: PHY, DLL, NW, MGNT/APP. Self-organizing communication network protocol stack oriented to power line medium. It can also be extended to other open physical layer medium, with ARM and 8051 two versions.
   + Study and identify neighboring nodes automatically, adjust carrier frequency and bit rate according to channel characteristics and noise level, and organized to emerge a mutual routing forwarding network. Customer can rapidly build applications with self-routing communication function without any network knowledge.
   + Based on powermesh, state grid user infromation acquisition system, street lamp control system has a large number of field use.
   +  Responsible for protocol architecture design, software development, testing, and customer support
 
-* **电力线通信设备在线升级平台型解决方案: FireUpdate**
-  + 可在用户设备安装到现场后, 在不接触设备的情况下, 接入设备附近的电网, 对设备中已有的芯片固件进行非接触式重编程. 实现Bug修复, 增加软件功能等目的
-  + 固化于芯片中, 对用户完全透明. 
-  + 已获得国家专利授权
-  + 负责整体功能设计, 编程器软硬件开发, PC端程序开发 
-
-* ** In field power line communication device upgrade solution: FireUpdate **
+* **In field power line communication device upgrade solution: FireUpdate**
   + It can update the firmware in PLC chips cantactlessly, after the devices have been installed in final customers environment, to fix bug, function upgrade etc.
   + built-in in chip , completely transparent to the user.
   + Has obtained patent authorization
   + Responsible for the overall functional design, programming software and hardware development, GUI program development
  
-* **国家电网用电信息采集系统集中器本地通信单元模块, 智能电表载波通信单元模块**
-  + 支持国家电网GDW 2009/2013, DL645系列标准, 通过中国电科院认证
-  + 自组织的智能电表网络, 可通过互联网实现远程电量抄读, 峰谷电价调整, 网络校时, 负荷投切命令下发等
-  + 在江苏, 安徽等多个现场稳定运行超过两年, 一次通信成功率>99%
-  + 负责PCB设计, 软件开发, 现场测试, 客户支持
+* **State grid power user electric energy data acquisition system concentrator local communication module, smart meter communication unit**
+  + Supports GDW 2009/2013 and DL645 standards, centified by China Electric Institute
+  + Self-organized smart meter network, implementing remoter reading, peak-valley price adjustment, timing adjustment, specified electric loads turning on or off, by internet.
+  + Running stably in multiple test fields in Jiangsu and Anhui more than two years, communication success rate >99%
+  + Responsible for PCB design, software development, field test and customer support
 
-* **BL6810 编程器 BL SystemLoader**
-  + 可实现计算机联机烧写和编程器存储程序烧写两种应用模式
-  + 分级的权限设计
-  + 光耦隔离, 保护设备和人身安全
-  + 负责编程控制协议设计, 编程器电路设计, 固件开发, 上位机软件
+* **BL6810 programmer: BL SystemLoader**
+  + Two work mode: computer connected mode and stand-alone mode;
+  + Hierarchical authority design
+  + Optical coupling isolation, protecting equipments and persons
+  + Responsible for the overall protocol design, circuit design, firmware development, PC software development
 
-* **工装测试平台: BL SysGear**
-  + 用于工厂批量加工生产测试通信模块, 可一键完成程序烧写, 电路功能测试, 通信性能测试, 标签打印等全套测试功能
-  + 大幅度提高了生产效率, 每块模块的测试时间从原来的一分半缩短到15秒, 且完全杜绝了手工测试可能导入的人为错误
-  + 已用于智能电表, 路灯控制等通信模块组件的批量生产
-  + 负责功能定义, 原理图设计, 固件开发
+* Producting test platform: BL SysGear**
+  + Used for bach processing production testing, running a full set of test process including burn programming, circuit function tesging, communication performance verify, label printing in one-key operation.
+  + Greatly improved the production efficiency, shortened test time for each module from the original 90 secs to 15 secs, and completely eliminated mistakes caused by human operations.
+  + Has been used in mass production in smart meters, street lamp control communication module components.
+  + Responsible for function definition, schematic design, firmware development.
 
-#### 艾迪悌(上海)科技股份有限公司 (NASDAQ.IDTI)
-: *市场/系统架构经理*
-  __2009-2010__
+#### IDT(Shanghai) technology Co., Ltd
+  *Marketing/System Architecture Manager*
+  __(2009-2010)__
 
-* **国内外主流电力线通信芯片产品调查与技术分析报告**
-  + 对当时国内外几乎全部的电力线通信芯片产品, 包括5种国内产品, 3种国外产品的通信性能做了详尽的技术分析与实测对比试验
-  + 分析了当时国内电力线通信产品的市场率, 并预测了未来的发展方向
-  + 负责样品采集, 试验设计, 通信实测试验, 数据统计, 市场分析, 整理报告
+* **Mainstream power line communication chip products investigation and technical analysis report**
+  + A thorough and complete technical research report about almost all kinds of the power line communication chip products in China market, including 5 domestic and 3 aboard products. A rigid and quantified performance evaluation and comparison plan was designed.
+  + Investigated manusfacturer market share, and made forecast for technical road map
+  + Responsible for the sample collection, test design, communication measurement test, data statistics, market analysis, technical writing.
 
 
-#### 北京福星晓程电子科技股份有限公司 (SZ300139)
-: *研发部副经理*
-  __2003-2009__ 
-  
-* **兼容Lonwork技术的电力线通信专用集成电路 PL2200**
-  + 物理层兼容EIA709.2的电力线通信专用集成电路, 通信速率为5.5kbps
-  + 国内首款全数字接收机架构的PLC通信芯片, 借鉴了移动通信的软件无线电的思想, 所有信号处理均在数字域完成, 具有强大的抗噪声和抗衰减能力
-  + PL2200支持SPI接口和UART两种用户接口, 用户通过对接口操作即可以完成通信设备的开发
-  + 负责整体项目管理, 通信算法设计, 系统架构设计, FPGA原型机验证, 软件开发
 
-* **三相多功能数字电能表专用集成电路 PL3223**
-  + 高精度三相多功能电能计量芯片, 支持SPI接口和功率脉冲输出, 带有可自定义分频比的字轮驱动脉冲输出
-  + 整合了二阶Σ-Δ ADC, 参考电压源, 温度传感器,电源检测以及有功/无功电能计量和电压/电流有效值以及线电压频率测量的数字信号处理模块
-  + 支持不同电网情况的有功和无功计量，如三相三线制，三相四线制；同时兼容各种电网频率，在50Hz 标准和60Hz 标准频率的电网中均可实现高精度的功率计量
-  + 负责项目管理, 计量算法设计, Verilog验证, FPGA验证
+#### Beijing Fuxingxiaocheng Co., Ltd(SZ300139)
+  *Vice manager of R&D Department*
+  __(2003-2009)__
 
-* **多功能数字电能表SOC PL3200**
-  + 国内外第一款整合了MCU, 单相电能计量, PLC通信, LCD驱动, 温度补偿等全部功能的多功能数字电能表专用片上系统
-  + 国内首创的63位CDMA PLC通信技术
-  + 负责通信算法设计
+* **Lonwork compatible ASIC for power line communication: PL2200**
+  + Compatible with EIA709.2 in PHY layer, with communication rate of 5.5 kbps
+  + First domestic all-digital receiver architecture PLC communication chip, learning the idea of software radio mobile communication from mobile communication, all signal processing are completed in digital domain, robust capacity in noise and channel decay.
+  + Supporting SPI and UART interfaces, development can be done by interface operations.
+  + Responsible for the overall project management, communication algorithm design, system architecture design, FPGA prototype verification, software development
 
-------
+* **three-phase multi-function metering ASIC: PL3223**
+  + high-precision three-phase multi-function electric energy metering chip, support the SPI interface and power pulse output, with customizable wheel drive pulse output.
+  + integrated the second-order 危 - 螖 ADC, the reference voltage source, temperature sensor, power detection and active/reactive power energy metering and voltage/current RMS and line voltage frequency measurement module.
+  + support active and reactive power measurement, such as three-phase three-wire system and three-phase four-wire system. Compatible with all kinds of power grid frequency.
+  + Responsible for project management, measurement algorithm design, Verilog verification, FPGA verification
 
-### 教育 {#degree}
-
-硕士
-: *清华大学电机工程与应用电子技术系*
- __2000-2003__
-
-学士
-: *清华大学电机工程与应用电子技术系*
- __1996-2000__
+* **Multi-function metering SOC PL3200**
+  + integrated MCU, single-phase electric energy metering, PLC communication, LCD driver, temperature compensation in one chip
+  + innovative 63-bit CDMA communication technology
+  + Responsible for the communication algorithm design
 
 ------
 
-### 技术专利 {#Patent}
+### Education
 
-1. CN02117085 , 低压配电网扩频通信网络系统及其通信方法(授权)
-1. CN201110397553  一种差分参考电压缓冲器(授权)
-1. CN201110458568 一种多载波频率自适应电力线通信系统及方法(授权)
-1. CN201210588104 电力线通信系统(授权)
-1. CN201310719238 低功耗电容型交流电压信号转换电路(pending)
-1. CN201310719237 电力线载波设备及其在线升级方法(授权)
-1. CN201520157260 一种低功耗直流电压比较电路(授权)
+* **Master**  
+  *Electrical engineering department, Tsinghua University*
+ __(2000-2003)__
 
-------
-
-### 荣誉 {#Honor}
-
-1. 2003 清华大学优秀硕士论文获得者
-1. 2011 贝岭公司十佳员工
-1. 2013 CEC突出贡献科技工作者
+* **Bachelor**  
+  *Electrical engineering department, Tsinghua University*
+ __(1996-2000)__
 
 ------
 
-### 兴趣 {#Hobby}
+### Patents
 
-旅行摄影, 话剧表演, 古董收藏
+1. CN02117085 Low voltage power distribution network spread spectrum communication network system and the communication method (issued)
+1. CN201110397553 A differential reference voltage buffer (issued)
+1. CN201110458568 A multiple carrier frequency adaptive power line communication system and method (issued)
+1. CN201210588104 Power line communication system (issued)
+1. CN201310719238 Low-power capacitance type ac voltage signal conversion circuit (pending)
+1. CN201310719237 Power line carrier equipment and online upgrade method (issued)
+1. CN201520157260 A dc voltage comparison circuit with low power consumption (issued)
+
+
+------
+
+### Honor
+
+1. 2003 Outstanding master thesis winner, tsinghua university
+1. 2011 Best 10 employees, Belling Inc.
+1. 2013 Outstanding performance technical staff, CEC
+
+------
+
+### Hobby
+
+Travel, photography, drama, antique
